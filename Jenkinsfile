@@ -4,6 +4,7 @@ pipeline {
             label 'jenkins_test'
             defaultContainer 'jnlp'
         }
+    }
     stages {
         stage('Build') {
             steps {
