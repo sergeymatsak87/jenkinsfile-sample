@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        kubernetes {
-            label 'jenkins_test'
-            defaultContainer 'jnlp'
-        }
+    agent any
     }
     stages {
         stage('Build') {
